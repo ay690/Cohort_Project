@@ -1,0 +1,374 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 160,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg",
+      "description": "Classic pizza with tomato sauce, extra cheese and fresh basil.",
+      "rating": 4.5,
+      "review": 120,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni Pizza",
+      "category": "Pizza",
+      "price": 220,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pepperoni_pizza.jpg",
+      "description": "Loaded with pepperoni, cheese and crispy crust.",
+      "rating": 4.7,
+      "review": 240,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Veggie Supreme",
+      "category": "Pizza",
+      "price": 200,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Veggie_pizza.jpg",
+      "description": "Topped with bell peppers, olives, onions and mushrooms.",
+      "rating": 4.4,
+      "review": 180,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Cheese Burst Pizza",
+      "category": "Pizza",
+      "price": 250,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cheese_pizza.jpg",
+      "description": "Extra cheesy delight with cheese-filled crust.",
+      "rating": 4.6,
+      "review": 210,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Farmhouse Pizza",
+      "category": "Pizza",
+      "price": 230,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Farmhouse_pizza.jpg",
+      "description": "Fresh veggies with mozzarella on a crispy base.",
+      "rating": 4.3,
+      "review": 150,
+      "inStock": false
+    },
+    {
+      "id": 6,
+      "name": "BBQ Chicken Pizza",
+      "category": "Pizza",
+      "price": 280,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/BBQ_chicken_pizza.jpg",
+      "description": "Smoky BBQ sauce with chicken and cheese.",
+      "rating": 4.6,
+      "review": 190,
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Paneer Tikka Pizza",
+      "category": "Pizza",
+      "price": 240,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Paneer_tikka_pizza.jpg",
+      "description": "Spicy paneer tikka with Indian masala flavors.",
+      "rating": 4.5,
+      "review": 175,
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Mexican Green Wave",
+      "category": "Pizza",
+      "price": 210,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Mexican_pizza.jpg",
+      "description": "Crunchy onions, capsicum, jalapenos and spices.",
+      "rating": 4.2,
+      "review": 140,
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Chicken Sausage Pizza",
+      "category": "Pizza",
+      "price": 260,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Sausage_pizza.jpg",
+      "description": "Juicy chicken sausage with cheese overload.",
+      "rating": 4.4,
+      "review": 165,
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Double Cheese Pizza",
+      "category": "Pizza",
+      "price": 190,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cheese_pizza.jpg",
+      "description": "Double layer of rich mozzarella cheese.",
+      "rating": 4.3,
+      "review": 155,
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Tandoori Chicken Pizza",
+      "category": "Pizza",
+      "price": 290,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Tandoori_chicken_pizza.jpg",
+      "description": "Tandoori chicken with Indian herbs.",
+      "rating": 4.7,
+      "review": 220,
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Mushroom Delight",
+      "category": "Pizza",
+      "price": 210,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mushroom_pizza.jpg",
+      "description": "Loaded with fresh mushrooms and cheese.",
+      "rating": 4.1,
+      "review": 110,
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Spicy Chicken Pizza",
+      "category": "Pizza",
+      "price": 275,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Spicy_chicken_pizza.jpg",
+      "description": "Hot & spicy chicken with fiery sauce.",
+      "rating": 4.6,
+      "review": 205,
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "Onion & Capsicum Pizza",
+      "category": "Pizza",
+      "price": 185,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Veg_pizza.jpg",
+      "description": "Simple and fresh onion-capsicum combo.",
+      "rating": 4.0,
+      "review": 95,
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "Italian Special Pizza",
+      "category": "Pizza",
+      "price": 310,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Italian_pizza.jpg",
+      "description": "Classic Italian herbs with premium toppings.",
+      "rating": 4.8,
+      "review": 260,
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Corn & Cheese Pizza",
+      "category": "Pizza",
+      "price": 190,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Corn_pizza.jpg",
+      "description": "Sweet corn with soft melted cheese.",
+      "rating": 4.2,
+      "review": 135,
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "Chicken Overload",
+      "category": "Pizza",
+      "price": 320,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Chicken_overload_pizza.jpg",
+      "description": "All varieties of chicken in one pizza.",
+      "rating": 4.9,
+      "review": 300,
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Cheesy Jalapeno",
+      "category": "Pizza",
+      "price": 205,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Jalapeno_pizza.jpg",
+      "description": "Cheesy base with spicy jalapenos.",
+      "rating": 4.3,
+      "review": 160,
+      "inStock": true
+    },
+    {
+      "id": 19,
+      "name": "Classic Chicken Pizza",
+      "category": "Pizza",
+      "price": 260,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Chicken_pizza.jpg",
+      "description": "Traditional chicken toppings with cheese.",
+      "rating": 4.5,
+      "review": 175,
+      "inStock": false
+    },
+    {
+      "id": 20,
+      "name": "Ultimate Veg Pizza",
+      "category": "Pizza",
+      "price": 240,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Veg_supreme_pizza.jpg",
+      "description": "All vegetables with extra cheese and herbs.",
+      "rating": 4.4,
+      "review": 185,
+      "inStock": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 160
+        },
+        {
+          "productId": 5,
+          "quantity": 2,
+          "price": 230
+        }
+      ],
+      "totalAmount": 620,
+      "status": "Completed",
+      "createdAt": "2025-12-04T18:25:43.511Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "price": 220
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 200
+        }
+      ],
+      "totalAmount": 420,
+      "status": "Pending",
+      "createdAt": "2025-12-01T10:15:20.100Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "items": [
+        {
+          "productId": 4,
+          "quantity": 2,
+          "price": 250
+        }
+      ],
+      "totalAmount": 500,
+      "status": "Processing",
+      "createdAt": "2025-12-02T14:45:10.250Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 200
+        },
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 160
+        }
+      ],
+      "totalAmount": 360,
+      "status": "Completed",
+      "createdAt": "2025-12-03T19:20:00.000Z"
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 2,
+          "price": 220
+        },
+        {
+          "productId": 4,
+          "quantity": 1,
+          "price": 250
+        }
+      ],
+      "totalAmount": 690,
+      "status": "Cancelled",
+      "createdAt": "2025-12-04T12:00:00.000Z"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 1,
+      "category": "Pizza",
+      "productId": 2,
+      "quantity": 1,
+      "addedAt": "2025-12-04T18:25:43.511Z"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "John Hans",
+      "email": "john@yahoo.in",
+      "password": "12345678",
+      "createdAt": "2025-11-30T18:25:43.511Z"
+    },
+    {
+      "id": 2,
+      "name": "Paul Lesnar",
+      "email": "pual@gamil.com",
+      "password": "87654321",
+      "createdAt": "2025-10-30T18:25:43.511Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "description": "Delicious Italian Pizza"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "description": "Delicious juicy burgers with sauces"
+    },
+    {
+      "id": 3,
+      "name": "Salad",
+      "description": "Fresh and healty salads"
+    },
+    {
+      "id": 4,
+      "name": "Pasta",
+      "description": "Creamy and Saucy pasta"
+    },
+    {
+      "id": 5,
+      "name": "Beverages",
+      "description": "Refrehing drinks"
+    },
+    {
+      "id": 6,
+      "name": "Desserts",
+      "description": "Sweets and desserts"
+    }
+  ]
+}
