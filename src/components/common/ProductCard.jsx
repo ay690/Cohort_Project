@@ -1,4 +1,16 @@
+import { useNavigate } from "react-router-dom";
+
 const ProductCard = ({ product }) => {
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    navigate(`/product/${product.id}`)
+  }
+
+  const handleCart = () => {
+    console.log(product);
+  }
+
   return (
     <div className="flex flex-col bg-white shadow-md rounded-md overflow-hidden">
       <div className="h-40 w-full overflow-hidden">
@@ -21,10 +33,10 @@ const ProductCard = ({ product }) => {
         </div>
         <p className="text-sm text-gray-600 mb-3 ">{product.description}</p>
         <div className="flex gap-2 mt-auto">
-          <button className="flex-1 border border-orange-500 text-orange-500 text-xs py-1.5 cursor-pointer rounded-md hover:bg-orange-50 hover:scale-105 transition-transform duration-300 ease-in-out">
+          <button onClick={handleViewDetails} className="flex-1 border border-orange-500 text-orange-500 text-xs py-1.5 cursor-pointer rounded-md hover:bg-orange-50 hover:scale-105 transition-transform duration-300 ease-in-out">
             View
           </button>
-          <button className="bg-orange-500 flex-1 text-white text-xs py-1.5 rounded-md cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
+          <button onClick={handleCart} className="bg-orange-500 flex-1 text-white text-xs py-1.5 rounded-md cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
             Add
           </button>
         </div>

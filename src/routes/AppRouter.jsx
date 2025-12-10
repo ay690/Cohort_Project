@@ -1,5 +1,5 @@
 import { Navbar } from "../components/layout";
-import { HomePage, CartPage } from "../pages";
+import { HomePage, CartPage, ProductDetailPage } from "../pages";
 import { Route, Routes } from "react-router-dom";
 
 const AppRouter = () => {
@@ -10,6 +10,7 @@ const AppRouter = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cart" element={<CartPage />} />
+          <Route path="/product/:id" element={<ProductDetailPage /> } />
         </Routes>
       </main>
     </div>

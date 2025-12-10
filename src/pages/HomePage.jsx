@@ -27,15 +27,19 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-2">
       <h1 className="text-2xl font-semibold mb-4 mt-4">Food Items</h1>
       <FilterBar />
       {error && <div className="text-red-500">Error in loading data...</div>}
       {!loading && !error && product.length > 0 && (
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {product?.map((prod) => (
-            <ProductCard product={prod} />
-          ))}
+          {product?.map((prod) => {
+            return (
+              <div key={prod.id}>
+                <ProductCard product={prod} />
+              </div>
+            );
+          })}
         </div>
       )}
     </div>
