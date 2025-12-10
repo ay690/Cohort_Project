@@ -27,7 +27,7 @@ const ProductCard = ({ product }) => {
         <p className="text-xs text-gray-500 mb-1">{product.category}</p>
         <div className="flex items-center justify-between mb-2">
           <span className="text-orange-500 font-bold">
-            ${product.price.toFixed(2)}
+            ₹{Number(product?.price || 0).toFixed(2)}
           </span>
           <span className="text-sm text-yellow-600">⭐{product.rating}</span>
         </div>
